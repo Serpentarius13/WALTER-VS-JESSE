@@ -4,14 +4,6 @@ from pygame.math import Vector2
 import sys
 import time
 
-
-print('Hello, dear Twitterino')
-
-print('I present you with everything...')
-
-time.sleep(3)
-
-
 class Snake:
     def __init__(self):
         self.body = [  # snake vector body
